@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: info
+    net.island.spring.web: debug
+    
+spring:  datasource:    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/movie?serverTimezone=UTC
+    username: root
+    password: is0297dbpassword
+  jpa:    hibernate:      ddl-auto: update
+    show-sql: true
